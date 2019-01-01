@@ -47,6 +47,17 @@ body
  font-weight:bold;
  border:none;
 }
+
+#convert_div {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+    width: 700px;
+    margin-left:100px;
+    margin-right: 100px;
+    margin-top: 50px;
+}
+
 #convert_div input[type="submit"]
 {
  width:330px;
@@ -61,7 +72,7 @@ body
 }
 
 .error {
-    width: 92%; 
+    width: 73%; 
     margin: 0px auto; 
     padding: 10px; 
     border: 1px solid #a94442; 
@@ -69,4 +80,7 @@ body
     background: #f2dede; 
     border-radius: 5px; 
     text-align: left;
+    margin-top: 25px;
+    margin-left: 100px; 
+    margin-right: 100px;
   }

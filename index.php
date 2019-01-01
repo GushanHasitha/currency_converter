@@ -12,10 +12,10 @@
 //session_start();  
 
 include('test.php'); 
-include('errors.php');
+
 ?>
 <div id="wrapper">
-
+<?php include('errors.php'); ?>
 <div id="convert_div">
 <form method="post"action="index.php">
  <input type="text" name="amount" placeholder="Enter Amount">
